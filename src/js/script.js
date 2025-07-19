@@ -13,6 +13,4 @@ fetch('/components/footer.html')
     document.getElementById('footer-placeholder').innerHTML = html;
   }); 
 
-AOS.init({
-    duration: 1000,
-});
+AOS.init();
